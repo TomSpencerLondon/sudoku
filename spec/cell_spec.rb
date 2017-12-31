@@ -13,5 +13,9 @@ describe Cell do
     cell = Cell.new(5)
     expect(cell).to be_filled_out
   end
-  
+
+  it 'should know if it has not been filled out' do
+    expect(cell).not_to be_filled_out
+  end
+
 end
