@@ -9,4 +9,8 @@ class Cell
     @value != 0
   end
 
+  def assume(value)
+    @value = value
+  end
+
 end
